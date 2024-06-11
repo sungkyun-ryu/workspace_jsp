@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<%!public int multi(int dan, int num) {
+		return (dan * num);
+	}%>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>구구단 컬럼</title>
+</head>
+<body>
+	<%
+	int col = 3;
+	try {
+		col = Integer.parseInt(request.getParameter("col"));
+	} catch (Exception e) {
+	}
+	
+	for (int i = 1; i < 10; i++) {
+		for (int dan = 2; dan < 2 + col; dan++ ) {
+			out.print(multi(dan, i)); 
+			} out.println("<br/>");	}
+		
+	%>
+
+</body>
+</html>

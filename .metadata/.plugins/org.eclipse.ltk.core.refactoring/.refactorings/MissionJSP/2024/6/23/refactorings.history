@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MissionJSP/src/main/webapp/Multiple.jsp&apos; to &apos;gugudan1.jsp&apos;" description="Rename resource &apos;Multiple.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/Multiple.jsp" name="gugudan1.jsp" stamp="1717558067570" updateReferences="true"/>
+</session>
