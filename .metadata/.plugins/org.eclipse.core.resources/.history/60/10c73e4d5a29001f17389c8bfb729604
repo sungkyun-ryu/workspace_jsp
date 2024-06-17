@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form>
+		<div>
+		<input type="radio" id="type1">
+		<label for="type1">Type1 </label>
+		<input type="text" id="dan">
+		<label for="dan">단 </label>
+	</div>
+	<div>
+		<input type="radio" id="type2">
+		<label for="type2">Type2 </label>
+		<input type="radio" id="type2">
+		<label for="type2">Vertical </label>
+		<input type="radio" id="type2">
+		<label for="type2">Horizontal </label>		
+	</div>
+	<div>
+		<input type="checkbox" id="type3">
+		<label for="type3">Type3 </label>
+		<input type="text" id="yeol">
+		<label for="yeol">열 </label>
+	</div>
+	<div>
+		<button type="submit">선택</button>
+	</div>
+	</form>
+</body>
+</html>

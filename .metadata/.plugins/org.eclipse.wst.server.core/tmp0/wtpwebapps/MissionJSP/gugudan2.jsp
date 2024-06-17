@@ -23,7 +23,7 @@
 			for (int dan = num; (dan < num + col) && (dan < 10); dan++) {
 				out.print(dan + " * " + i + " = ");
 				out.print(multi(dan, i));
-				out.print("&nbsp&nbsp&nbsp&nbsp");
+				out.print("&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp");
 			}
 			out.println("<br/>");
 		} out.println("<br/>");
