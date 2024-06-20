@@ -6,7 +6,7 @@ import jakarta.servlet.ServletContext;
 
 public class JDBConnect {
 	
-	private Connection con; 
+	private Connection con; 	
 	
 	public JDBConnect() {
 		try {

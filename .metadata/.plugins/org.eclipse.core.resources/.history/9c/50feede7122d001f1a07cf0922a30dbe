@@ -1,0 +1,36 @@
+
+<%@ page import = "membership.MemberDTO" %>
+<%@ page import = "membership.MemberDAO" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%
+String userId = request.getParameter("user_id");
+String userPwd = request.getParameter("user_pw");
+
+String MysqlDriver = application.getInitParameter("MySQLDriver");
+String MysqlURL = application.getInitParameter("MySQLURL");
+String MysqlId = application.getInitParameter("MySQLId");
+String MysqlPwd = application.getInitParameter("MySQLPwd");
+%>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>
